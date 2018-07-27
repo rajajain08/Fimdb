@@ -27,6 +27,8 @@ let letsgo = ()=>{
 			success: (data) =>{
 				$('div#dummy').remove();
 				console.log(data);
+				if(data.Poster=="N/A")
+					data.Poster="dummy.png";
 				let name=data.Title;
 				console.log(name);
 				let tempRow = ` <div id="dummy"><div class="head">Movie:${data.Title}</div> 
