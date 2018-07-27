@@ -15,8 +15,8 @@ let letsgo = ()=>{
  	else
 	{   
 	
-		let url=`http://www.omdbapi.com/?apikey=53454e1d&t=${element}`;
-		let url1=`http://www.omdbapi.com/?apikey=53454e1d&i=${element}`;
+		let url=`https://www.omdbapi.com/?apikey=53454e1d&t=${element}`;
+		let url1=`https://www.omdbapi.com/?apikey=53454e1d&i=${element}`;
 		let url2 = url;
 		if(search==1)
 			{url2 = url1;}
