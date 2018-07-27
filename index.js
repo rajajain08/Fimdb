@@ -29,7 +29,7 @@ let letsgo = ()=>{
 				console.log(data);
 				let name=data.Title;
 				console.log(name);
-				let tempRow = ` <div id="dummy"><div class="head">${data.Title}</div> 
+				let tempRow = ` <div id="dummy"><div class="head">Movie:${data.Title}</div> 
 							    	 <center><div class="card">
 										 <img src="${data.Poster}"  style="width:70%; height:50%;">
 										  <div class="container">
